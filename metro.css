@@ -1,0 +1,958 @@
+/* metro.css v0.1.0 | MIT License | https://github.com/alfianerlian/metro */
+
+/* train container */
+.train {
+  margin: 40px auto;
+  width: 30%;
+  max-width: 340px;
+}
+.train:hover {
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.24s ease 0.2s;
+     -moz-transition: -moz-transform 0.24s ease 0.2s;
+       -o-transition: -o-transform 0.24s ease 0.2s;
+          transition: transform 0.24s ease 0.2s;
+  z-index: 99;
+}
+/* end train container */
+
+/* top */
+.outside-top {
+  position: relative;
+}
+.condenser {
+  position: relative;
+  margin: 0 auto -14%;
+  -webkit-border-radius: 52% 50% 0 0;
+          border-radius: 52% 50% 0 0;
+  padding-top: 26%;
+  width: 70%;
+  background-color: #d7d7d7;
+}
+
+.condenser_filter {
+  position: absolute;
+  top: 24%;
+  left: 34%;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding-top: 14%;
+  width: 33%;
+  background-color: #bfbfbf;
+}
+.antenna-left {
+  position: absolute;
+  top: 14%;
+  left: 26%;
+  -webkit-border-radius: 30%;
+          border-radius: 30%;
+  height: 100%;
+  width: 5%;
+  background-color: #b3b3b3;
+}
+.antenna-right {
+  position: absolute;
+  top: 21%;
+  right: 30%;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  width: 2%;
+  height: 50%;
+  background-color: #b3b3b3;
+}
+/* end top */
+
+/* glass section */
+.head-top {
+  position: relative;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  padding-top: 18%;
+  width: 100%;
+  background-color: #DADADA;
+}
+
+.head-top_inner {
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  width: 96%;
+  height: 89%;
+  background-color: #333333;
+}
+
+.glass-top {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  width: 90%;
+  height: 74%;
+  background-color: #444444;
+}
+.glass-top--bordered,
+.glass--bordered .glass-top {
+  background-color: #292929;
+}
+
+.glass-top--bordered::before,
+.glass--bordered .glass-top::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  width: 96%;
+  height: 86%;
+  background-color: #444;
+}
+.glass-top--bordered,
+.glass--bordered .glass-top {
+  left: 4%;
+  -webkit-border-radius: 50% 50% 0 0;
+          border-radius: 50% 50% 0 0;
+  width: 92%;
+  height: 83%;
+}
+.head-bottom {
+  position: relative;
+  padding-top: 40%;
+  width: 100%;
+  background-color: #DADADA;
+}
+.head-bottom_inner {
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  width: 96%;
+  height: 100%;
+  background-color: #333333;
+}
+.glass-bottom {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  -webkit-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  width: 90%;
+  height: 67%;
+  background-color: #444444;
+}
+.glass-separator {
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  width: 6%;
+  height: 150%;
+  background-color: #333;
+}
+.glass-bottom--bordered,
+.glass-bottom--bordered .glass-separator,
+.glass--bordered .glass-bottom,
+.glass--bordered .glass-bottom .glass-separator {
+  background-color: #292929;
+}
+.glass-bottom--bordered::before,
+.glass--bordered .glass-bottom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2%;
+  -webkit-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+  width: 96%;
+  height: 94%;
+  background-color: #444444;
+}
+.glass-bottom--bordered,
+.glass--bordered .glass-bottom {
+  left: 4%;
+  width: 92%;
+  height: 71%;
+}
+.glass-bottom--bordered .glass-separator::before,
+.glass--bordered .glass-bottom .glass-separator::before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  width: 30%;
+  height: 105%;
+  background-color: #333;
+}
+.glass-bottom--bordered .glass-separator,
+.glass--bordered .glass-bottom .glass-separator {
+  height: 140%;
+}
+/* glass section */
+
+/* lamp section */
+.middle_upper-gap {
+  margin: auto;
+  padding-top: 6%;
+  width: 96%;
+  background-color: transparent;
+}
+
+.main-lamp {
+  position: absolute;
+  top: 16%;
+  padding-top: 10%;
+  width: 10%;
+  z-index: 40;
+}
+.main-lamp--left {
+  left: 10%;
+}
+.main-lamp--right {
+  right: 10%;
+}
+.signal-lamp {
+  position: absolute;
+  top: 18%;
+  width: 7%;
+  padding-top: 7%;
+  z-index: 40;
+}
+.signal-lamp--left {
+  left: 11%;
+}
+.signal-lamp--right {
+  right: 11%;
+}
+.lamp {
+  background-color: #FFF;
+}
+.lamp,
+.lamp_inner {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.lamp--primary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -webkit-box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+          box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+}
+.lamp--primary::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  left: 15%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #EAE6D0;
+}
+.lamp-secondary-container {
+  position: relative;
+  padding-top: 12%;
+}
+.lamp--secondary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  -webkit-box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
+          box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
+}
+.lamp--secondary::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  left: 15%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #814343;
+}
+/* end lamp section */
+
+/* livery */
+.middle-base {
+  position: relative;
+  width: 100%;
+  background-color: #DADADA;
+}
+.middle-base--toplayer {
+  z-index: 10;
+}
+.livery::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 2%;
+  left: 2%;
+  width: 96%;
+  height: 100%;
+  background-color: #1898C5;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.livery {
+  position: relative;
+  padding-top: 15.4%;
+}
+/* end livery */
+
+/* below the livery and lamp*/
+.plate {
+  position: relative;
+  margin: auto;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 0.5%;
+  width: 78%;
+  background-color: #DADADA;
+}
+.plate_shadow {
+  padding-top: 6%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/* below the livery */
+
+/* outside parts */
+.outside-bottom {
+  position: relative;
+  left: 2%;
+  width: 96%;
+}
+.bottom-parts-gap {
+  position: relative;
+  padding-top: 7%;
+  height: 0;
+  background-color: #444444;
+}
+.bottom-parts-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 160%;
+  z-index: 10;
+}
+.part-a {
+  position: absolute;
+  width: 2%;
+  height: 145%;
+  background-color: #707070;
+}
+.part-a--left {
+  left: 21%;
+}
+.part-a--right {
+  right: 13%;
+}
+.part-b {
+  position: absolute;
+  width: 7%;
+  height: 90%;
+  top: 0;
+  background-color: #656464;
+  z-index: 10;
+}
+.part-b--left {
+  left: 12%;
+}
+.part-b--right {
+  right: 19%;
+}
+.part-c {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  -webkit-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+  width: 40%;
+  height: 116%;
+  background-color: #555555;
+  z-index: 10;
+}
+.part-c_inner {
+  position: absolute;
+  left: 10%;
+  -webkit-border-radius: 0 0 1px 1px;
+          border-radius: 0 0 1px 1px;
+  width: 80%;
+  height: 77%;
+  background-color: #444444;
+}
+
+.coupler {
+  position: absolute;
+  top: -16%;
+  left: 26%;
+  width: 48%;
+  height: 120%;
+  background-color: #5C5C5C;
+}
+.coupler::before {
+  content: "";
+  position: absolute;
+  top: -22%;
+  right: -25%;
+  left: -25%;
+  height: 100%;
+  z-index: -1;
+  background-color: #444444;
+}
+.coupler_inner {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  width: 64%;
+  height: 60%;
+  background-color: #444444;
+}
+.coupler_left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #717171;
+}
+/* end outside parts */
+
+/* bumper */
+.bumper {
+  position: relative;
+  padding-top: 20%;
+  overflow: hidden;
+}
+.bumper_bottom {
+  position: absolute;
+  top: 46%;
+  left: 3%;
+  width: 50%;
+  height: 54%;
+  background-color: #DADADA;
+  -webkit-transform: skewX(45deg);
+     -moz-transform: skewX(45deg);
+      -ms-transform: skewX(45deg);
+       -o-transform: skewX(45deg);
+          transform: skewX(45deg);
+  z-index: 4;
+}
+.bumper_bottom::before {
+  content: "";
+  position: absolute;
+  right: -90%;
+  bottom: 0;
+  width: 110%;
+  height: 100%;
+  background-color: inherit;
+  -webkit-transform: skewX(-60deg);
+     -moz-transform: skewX(-60deg);
+      -ms-transform: skewX(-60deg);
+       -o-transform: skewX(-60deg);
+          transform: skewX(-60deg);
+}
+.bumper_top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 46%;
+  background-color: #DADADA;
+  z-index: 5;
+}
+.bumper_middle {
+  position: absolute;
+  bottom: 30%;
+  left: 36%;
+  width: 23%;
+  height: 20%;
+  background-color: #DADADA;
+  -webkit-transform: skewX(-45deg);
+     -moz-transform: skewX(-45deg);
+      -ms-transform: skewX(-45deg);
+       -o-transform: skewX(-45deg);
+          transform: skewX(-45deg);
+  z-index: 6;
+}
+.bumper_middle::before {
+  content: "";
+  position: absolute;
+  right: -20%;
+  width: 80%;
+  height: 100%;
+  background-color: inherit;
+  -webkit-transform: skewX(60deg);
+     -moz-transform: skewX(60deg);
+      -ms-transform: skewX(60deg);
+       -o-transform: skewX(60deg);
+          transform: skewX(60deg);
+}
+.bumper_mask-a {
+  position: absolute;
+  bottom: -36%;
+  left: 23%;
+  width: 54%;
+  height: 80%;
+  background-color: #444444;
+}
+.bumper_mask-b {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  background-color: #444444;
+}
+/* end bumper */
+
+/* shadow */
+.shadow::before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  padding-top: 12%;
+  width: 80%;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.shadow {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* end shadow */
+
+
+/* base reset JP */
+.base--jr .head-top,
+.base--jr .head-bottom,
+.base--jr .middle-base,
+.base--jr .plate,
+.base--jr .bumper_bottom,
+.base--jr .bumper_top,
+.base--jr .bumper_middle,
+.base--jr .head-bottom-extend {
+  background-color: #DADADA;
+}
+/* end base reset JP */
+
+/* base reset KCJ */
+.base--kcj .head-top,
+.base--kcj .head-bottom,
+.base--kcj .middle-base,
+.base--kcj .plate,
+.base--kcj .bumper_bottom,
+.base--kcj .bumper_top,
+.base--kcj .bumper_middle,
+.base--kcj .head-bottom-extend {
+  background-color: #E04949;
+}
+/* end base reset KCJ */
+
+
+
+/* jr205-1000-a */
+.jr205-1000-a .glass-bottom,
+.glass-bottom.jr205-1000-a {
+  height: 88%;
+}
+.jr205-1000-a .glass-bottom::before,
+.glass-bottom--jr205-1000-a::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 33%;
+  height: 24%;
+  background-color: #333333;
+}
+.jr205-1000-a .glass-separator,
+.glass-separator--jr205-1000-a {
+  left: 64%;
+  height: 140%;
+}
+.jr205-1000-a .part-b--right {
+  right: 12%;
+}
+.jr205-1000-a .part-a--right {
+  right: 21%;
+}
+.jr205-1000-a .bumper_bottom {
+  background-color: #707070;
+}
+.jr205-1000-a .bumper_top {
+  background-color: #444;
+}
+.jr205-1000-a .bumper_middle {
+  display: none;
+}
+/* end jr205-1000-a */
+
+
+
+/* jr205-0-later */
+.jr205-0-later .head-bottom-extend {
+  position: relative;
+  padding-top: 9%;
+  background-color: #dadada;
+}
+.jr205-0-later .head-bottom-extend_inner {
+  position: absolute;
+  top: -100%;
+  left: 2%;
+  -webkit-border-radius: 0 0 50% 50%;
+          border-radius: 0 0 50% 50%;
+  width: 96%;
+  height: 200%;
+  background-color: #333333;
+}
+.jr205-0-later .livery {
+  padding-top: 12.5%;
+}
+.jr205-0-later .livery::before {
+  right: 3%;
+  left: 3%;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  width: 94%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.jr205-0-later .main-lamp {
+  top: 20%;
+  padding-top: 7%;
+  width: 7%;
+}
+.jr205-0-later .signal-lamp {
+  top: 24%;
+  padding-top: 6%;
+  width: 6%;
+}
+.jr205-0-later .lamp--primary::before,
+.jr205-0-later .lamp--secondary::before {
+  top: 1%;
+  right: 1%;
+  bottom: 1%;
+  left: 1%;
+}
+.jr205-0-later .lamp--primary,
+.jr205-0-later .lamp--secondary {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.jr205-0-later .main-lamp--left {
+  left: 20%;
+}
+.jr205-0-later .main-lamp--right {
+  right: 20%;
+}
+.jr205-0-later .signal-lamp--left {
+  left: 10%;
+}
+.jr205-0-later .signal-lamp--right {
+  right: 10%;
+}
+/* end jr205-0-later */
+
+
+
+/* jr205-1000 */
+.jr205-1000 .main-lamp--left {
+  left: 14%;
+}
+.jr205-1000 .main-lamp--right {
+  right: 14%;
+}
+.jr205-1000 .main-lamp {
+  top: 56%;
+  padding-top: 5%;
+  width: 5%;
+}
+.jr205-1000 .lamp--primary::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #555;
+}
+.jr205-1000 .signal-lamp--left {
+  left: 7%;
+}
+.jr205-1000 .signal-lamp--right {
+  right: 7%;
+}
+.jr205-1000 .signal-lamp {
+  top: 56%;
+  padding-top: 5%;
+  width: 5%;
+}
+.jr205-1000 .lamp--secondary::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #5e4848;
+}
+.jr205-1000 .lamp--primary,
+.jr205-1000 .lamp--secondary {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.jr205-1000 .glass-bottom--bordered::before, 
+.jr205-1000.glass--bordered .glass-bottom::before {
+  top: 5%;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  height: 90%;
+}
+.jr205-1000 .glass-bottom {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  height: 80%;
+}
+.jr205-1000 .middle_upper-gap {
+  background-color: #333333;
+}
+.jr205-1000 .livery::before {
+  top: -15%;
+  -webkit-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+.jr205-1000 .livery {
+  left: 2%;
+  -webkit-border-radius: 0 0 8px 8px;
+          border-radius: 0 0 8px 8px;
+  width: 96%;
+  background-color: #333333;
+}
+.jr205-1000 .middle-curve-shadow::before {
+  content: "";
+  position: absolute;
+  top: 26%;
+  left: 1%;
+  width: 98%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.jr205-1000 .middle-curve-shadow {
+  position: relative;
+  left: 2%;
+  padding-top: 12%;
+  width: 96%;
+}
+.jr205-1000 .plate {
+  padding-top: 0;
+  width: 98%;
+}
+.jr205-1000 .plate_shadow {
+  padding-top: 5%;
+}
+.jr205-1000 .bumper_top {
+  background-color: #444;
+}
+.jr205-1000 .bumper_mask-a {
+  background-color: transparent;
+}
+/* end jr205-1000 */
+
+
+
+/* background color */
+.bg--nambu {
+  background-color: #F8B49F;
+}
+.bg--tokaido {
+  background-color: #D0C7CC;
+}
+.bg--hanwa {
+  background-color: #A4DEF3;
+}
+.bg--yokohama {
+  background-color: #C0DABD;
+}
+.bg--yamanote {
+  background-color: #C0DABD;
+}
+.bg--saikyo {
+  background-color: #B4E3DB;
+}
+.bg--keiyo {
+  background-color: #FE99B7;
+}
+.bg--musashino {
+  background-color: #FFBB99;
+}
+.bg--kcj {
+  background-color: #F0A7A7;
+}
+.bg--utsunomiya {
+  background-color: #A8EFC8;
+}
+.bg--niko {
+  background-color: #EBACB3;
+}
+.bg--nambu-branch {
+  background-color: #A9EEE4;
+}
+.bg--tsurumi {
+  background-color: #FEE899;
+}
+.bg--hachiko {
+  background-color: #B4DDA1;
+}
+.bg--senseki {
+  background-color: #A1DCF6;
+}
+.bg--default {
+  background-color: #A4DEF3;
+}
+/* end background color */
+
+
+/* livery theme */
+.livery--kcj-wide {
+  background-color: #F6BE09;
+}
+.livery--kcj-wide::before,
+.livery--kcj-wide::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #FFF;
+  z-index: -1;
+}
+.livery--kcj-wide::before {
+  top: -10%;
+}
+.livery--kcj-wide::after {
+  bottom: -10%;
+}
+.livery--nambu::before {
+  background-color: #F4C14C;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F4C14C), color-stop(50%, #F4744D), color-stop(90%, #F4744D), color-stop(90%, #463A40));
+  background-image: -webkit-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
+  background-image: -moz-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
+  background-image: -o-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
+  background-image: linear-gradient(to bottom, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
+}
+.livery--nambu-branch::before {
+  background-color: #1D9683;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #1D9683), color-stop(60%, #E8BB3E));
+  background-image: -webkit-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
+  background-image: -moz-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
+  background-image: -o-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
+  background-image: linear-gradient(to bottom, #1D9683 60%, #E8BB3E 60%);
+}
+.livery--tsurumi::before {
+  background-color: #FED12D;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FED12D), color-stop(50%, #FFFFFF), color-stop(75%, #FFFFFF), color-stop(75%, #5DB7DA));
+  background-image: -webkit-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
+  background-image: -moz-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
+  background-image: -o-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
+  background-image: linear-gradient(to bottom, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
+}
+.livery--hachiko::before {
+  background-color: #F07724;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #F07724), color-stop(60%, #9BD281));
+  background-image: -webkit-linear-gradient(top, #F07724 60%, #9BD281 60%);
+  background-image: -moz-linear-gradient(top, #F07724 60%, #9BD281 60%);
+  background-image: -o-linear-gradient(top, #F07724 60%, #9BD281 60%);
+  background-image: linear-gradient(to bottom, #F07724 60%, #9BD281 60%);
+}
+.livery--senseki::before {
+  background-color: #47BBEE;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #5F82DC), color-stop(30%, #47BBEE));
+  background-image: -webkit-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
+  background-image: -moz-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
+  background-image: -o-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
+  background-image: linear-gradient(to bottom, #5F82DC 30%, #47BBEE 30%);
+}
+.livery--tokaido::before {
+  background-color: #463A40;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, #FF8143), color-stop(18%, #FFF), color-stop(23%, #FFF), color-stop(23%, #463A40));
+  background-image: -webkit-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
+  background-image: -moz-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
+  background-image: -o-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
+  background-image: linear-gradient(to bottom, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
+}
+.livery--hanwa::before {
+  background-color: #1898C5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(85%, #1898C5), color-stop(85%, #FF8143), color-stop(90%, #FF8143), color-stop(90%, #1898C5), color-stop(95%, #1898C5), color-stop(95%, #FF8143));
+  background-image: -webkit-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
+  background-image: -moz-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
+  background-image: -o-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
+  background-image: linear-gradient(to bottom, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
+}
+.livery--yokohama::before {
+  background-color: #78B071;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #78B071), color-stop(70%, #338E7D));
+  background-image: -webkit-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: -moz-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: -o-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: linear-gradient(to bottom, #78B071 70%, #338E7D 70%);
+}
+.livery--yokohama::before {
+  background-color: #78B071;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #78B071), color-stop(70%, #338E7D));
+  background-image: -webkit-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: -moz-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: -o-linear-gradient(top, #78B071 70%, #338E7D 70%);
+  background-image: linear-gradient(to bottom, #78B071 70%, #338E7D 70%);
+}
+.livery--utsunomiya::before {
+  background-color: #24C76C;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FF8D18), color-stop(50%, #24C76C));
+  background-image: -webkit-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
+  background-image: -moz-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
+  background-image: -o-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
+  background-image: linear-gradient(to bottom, #FF8D18 50%, #24C76C 50%);
+}
+.livery--niko::before {
+  background-color: #55141C;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #A86B29), color-stop(20%, #55141C));
+  background-image: -webkit-linear-gradient(top, #A86B29 20%, #55141C 20%);
+  background-image: -moz-linear-gradient(top, #A86B29 20%, #55141C 20%);
+  background-image: -o-linear-gradient(top, #A86B29 20%, #55141C 20%);
+  background-image: linear-gradient(to bottom, #A86B29 20%, #55141C 20%);
+}
+.livery--kcj::before {
+  background-color: #F6BE09;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #FFFFFF), color-stop(10%, #F6BE09), color-stop(90%, #F6BE09), color-stop(90%, #FFFFFF));
+  background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
+  background-image: -moz-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
+  background-image: -o-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
+  background-image: linear-gradient(to bottom, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
+}
+.livery--hanwa2::before {
+  background-color: #1898C5;
+}
+.livery--yamanote::before {
+  background-color: #78B071;
+}
+.livery--saikyo::before {
+  background-color: #338E7D;
+}
+.livery--keiyo::before {
+  background-color: #E83B6F;
+}
+.livery--musashino::before {
+  background-color: #FF8143;
+}
+/* livery theme */
