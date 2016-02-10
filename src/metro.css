@@ -8,15 +8,8 @@
   max-width: 340px;
 }
 .train:hover {
-  -webkit-transform: scale(1.2);
-     -moz-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-       -o-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: -webkit-transform 0.24s ease 0.2s;
-     -moz-transition: -moz-transform 0.24s ease 0.2s;
-       -o-transition: -o-transform 0.24s ease 0.2s;
-          transition: transform 0.24s ease 0.2s;
+  transform: scale(1.2);
+  transition: transform 0.24s ease 0.2s;
   z-index: 99;
 }
 /* end train container */
@@ -28,9 +21,7 @@
 .condenser {
   position: relative;
   margin: 0 auto -14%;
-  -webkit-border-radius: 52% 50% 0 0;
-     -moz-border-radius: 52% 50% 0 0;
-          border-radius: 52% 50% 0 0;
+  border-radius: 52% 50% 0 0;
   padding-top: 26%;
   width: 70%;
   background-color: #D7D7D7;
@@ -39,9 +30,7 @@
   position: absolute;
   top: 24%;
   left: 34%;
-  -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-          border-radius: 10px;
+  border-radius: 10px;
   padding-top: 14%;
   width: 33%;
   background-color: #BFBFBF;
@@ -50,9 +39,7 @@
   position: absolute;
   top: 14%;
   left: 26%;
-  -webkit-border-radius: 30%;
-     -moz-border-radius: 30%;
-          border-radius: 30%;
+  border-radius: 30%;
   height: 100%;
   width: 5%;
   background-color: #B3B3B3;
@@ -61,9 +48,7 @@
   position: absolute;
   top: 21%;
   right: 30%;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   width: 2%;
   height: 50%;
   background-color: #B3B3B3;
@@ -73,9 +58,7 @@
 /* glass section */
 .head-top {
   position: relative;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   padding-top: 18%;
   width: 100%;
   background-color: #DADADA;
@@ -84,9 +67,7 @@
   position: absolute;
   bottom: 0;
   left: 2%;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   width: 96%;
   height: 89%;
   background-color: #333333;
@@ -95,9 +76,7 @@
   position: absolute;
   left: 5%;
   bottom: 0;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   width: 90%;
   height: 74%;
   background-color: #444444;
@@ -112,9 +91,7 @@
   position: absolute;
   left: 2%;
   bottom: 0;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   width: 96%;
   height: 86%;
   background-color: #444;
@@ -122,9 +99,7 @@
 .glass-top--bordered,
 .glass--bordered .glass-top {
   left: 4%;
-  -webkit-border-radius: 50% 50% 0 0;
-     -moz-border-radius: 50% 50% 0 0;
-          border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
   width: 92%;
   height: 83%;
 }
@@ -146,9 +121,7 @@
   position: absolute;
   top: 0;
   left: 5%;
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
   width: 90%;
   height: 67%;
   background-color: #444444;
@@ -173,9 +146,7 @@
   position: absolute;
   top: 0;
   left: 2%;
-  -webkit-border-radius: 0 0 3px 3px;
-     -moz-border-radius: 0 0 3px 3px;
-          border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
   width: 96%;
   height: 94%;
   background-color: #444444;
@@ -241,9 +212,7 @@
 }
 .lamp,
 .lamp_inner {
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .lamp--primary {
   position: absolute;
@@ -251,9 +220,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  -webkit-box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
-     -moz-box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
-          box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
 }
 .lamp--primary::before {
   content: "";
@@ -262,9 +229,7 @@
   right: 15%;
   bottom: 15%;
   left: 15%;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   background-color: #EAE6D0;
 }
 .lamp-secondary-container {
@@ -278,9 +243,7 @@
   bottom: 0;
   left: 0;
   background-color: transparent;
-  -webkit-box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
-     -moz-box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
-          box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
+  box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.2);
 }
 .lamp--secondary::before {
   content: "";
@@ -289,9 +252,7 @@
   right: 15%;
   bottom: 15%;
   left: 15%;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   background-color: #814343;
 }
 /* end lamp section */
@@ -314,9 +275,7 @@
   width: 96%;
   height: 100%;
   background-color: #1898C5;
-  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
-     -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .livery {
   position: relative;
@@ -388,9 +347,7 @@
   position: absolute;
   top: 0;
   left: 30%;
-  -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
   width: 40%;
   height: 116%;
   background-color: #555555;
@@ -399,9 +356,7 @@
 .part-c_inner {
   position: absolute;
   left: 10%;
-  -webkit-border-radius: 0 0 1px 1px;
-     -moz-border-radius: 0 0 1px 1px;
-          border-radius: 0 0 1px 1px;
+  border-radius: 0 0 1px 1px;
   width: 80%;
   height: 77%;
   background-color: #444444;
@@ -456,11 +411,7 @@
   width: 50%;
   height: 54%;
   background-color: #DADADA;
-  -webkit-transform: skewX(45deg);
-     -moz-transform: skewX(45deg);
-      -ms-transform: skewX(45deg);
-       -o-transform: skewX(45deg);
-          transform: skewX(45deg);
+  transform: skewX(45deg);
   z-index: 4;
 }
 .bumper_bottom::before {
@@ -471,11 +422,7 @@
   width: 110%;
   height: 100%;
   background-color: inherit;
-  -webkit-transform: skewX(-60deg);
-     -moz-transform: skewX(-60deg);
-      -ms-transform: skewX(-60deg);
-       -o-transform: skewX(-60deg);
-          transform: skewX(-60deg);
+  transform: skewX(-60deg);
 }
 .bumper_top {
   position: absolute;
@@ -492,11 +439,7 @@
   width: 23%;
   height: 20%;
   background-color: #DADADA;
-  -webkit-transform: skewX(-45deg);
-     -moz-transform: skewX(-45deg);
-      -ms-transform: skewX(-45deg);
-       -o-transform: skewX(-45deg);
-          transform: skewX(-45deg);
+  transform: skewX(-45deg);
   z-index: 6;
 }
 .bumper_middle::before {
@@ -506,11 +449,7 @@
   width: 80%;
   height: 100%;
   background-color: inherit;
-  -webkit-transform: skewX(60deg);
-     -moz-transform: skewX(60deg);
-      -ms-transform: skewX(60deg);
-       -o-transform: skewX(60deg);
-          transform: skewX(60deg);
+  transform: skewX(60deg);
 }
 .bumper_mask-a {
   position: absolute;
@@ -536,15 +475,11 @@
   position: absolute;
   bottom: 30px;
   left: 10%;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   padding-top: 12%;
   width: 80%;
   background-color: transparent;
-  -webkit-box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
-     -moz-box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.4);
 }
 .shadow {
   position: relative;
@@ -603,9 +538,7 @@
   position: absolute;
   top: -100%;
   left: 2%;
-  -webkit-border-radius: 0 0 50% 50%;
-     -moz-border-radius: 0 0 50% 50%;
-          border-radius: 0 0 50% 50%;
+  border-radius: 0 0 50% 50%;
   width: 96%;
   height: 200%;
   background-color: #333333;
@@ -616,13 +549,9 @@
 .jr205-0-later .livery::before {
   right: 3%;
   left: 3%;
-  -webkit-border-radius: 8px;
-     -moz-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   width: 94%;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .jr205-0-later .main-lamp {
   top: 20%;
@@ -643,9 +572,7 @@
 }
 .jr205-0-later .lamp--primary,
 .jr205-0-later .lamp--secondary {
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .jr205-0-later .main-lamp--left {
   left: 20%;
@@ -701,22 +628,16 @@
 }
 .jr205-1000 .lamp--primary,
 .jr205-1000 .lamp--secondary {
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .jr205-1000 .glass-bottom--bordered::before, 
 .jr205-1000.glass--bordered .glass-bottom::before {
   top: 5%;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   height: 90%;
 }
 .jr205-1000 .glass-bottom {
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  border-radius: 6px;
   height: 80%;
 }
 .jr205-1000 .middle_upper-gap {
@@ -724,15 +645,11 @@
 }
 .jr205-1000 .livery::before {
   top: -15%;
-  -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 .jr205-1000 .livery {
   left: 2%;
-  -webkit-border-radius: 0 0 8px 8px;
-     -moz-border-radius: 0 0 8px 8px;
-          border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
   width: 96%;
   background-color: #333333;
 }
@@ -868,98 +785,50 @@
 }
 .livery--nambu::before {
   background-color: #F4C14C;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F4C14C), color-stop(50%, #F4744D), color-stop(90%, #F4744D), color-stop(90%, #463A40));
-  background-image: -webkit-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
-  background-image: -moz-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
-  background-image: -o-linear-gradient(top, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
   background-image: linear-gradient(to bottom, #F4C14C 50%, #F4744D 50%, #F4744D 90%, #463A40 90%);
 }
 .livery--nambu-branch::before {
   background-color: #1D9683;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #1D9683), color-stop(60%, #E8BB3E));
-  background-image: -webkit-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
-  background-image: -moz-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
-  background-image: -o-linear-gradient(top, #1D9683 60%, #E8BB3E 60%);
   background-image: linear-gradient(to bottom, #1D9683 60%, #E8BB3E 60%);
 }
 .livery--tsurumi::before {
   background-color: #FED12D;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FED12D), color-stop(50%, #FFFFFF), color-stop(75%, #FFFFFF), color-stop(75%, #5DB7DA));
-  background-image: -webkit-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
-  background-image: -moz-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
-  background-image: -o-linear-gradient(top, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
   background-image: linear-gradient(to bottom, #FED12D 50%, #FFFFFF 50%, #FFFFFF 75%, #5DB7DA 75%);
 }
 .livery--hachiko::before {
   background-color: #F07724;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #F07724), color-stop(60%, #9BD281));
-  background-image: -webkit-linear-gradient(top, #F07724 60%, #9BD281 60%);
-  background-image: -moz-linear-gradient(top, #F07724 60%, #9BD281 60%);
-  background-image: -o-linear-gradient(top, #F07724 60%, #9BD281 60%);
   background-image: linear-gradient(to bottom, #F07724 60%, #9BD281 60%);
 }
 .livery--senseki::before {
   background-color: #47BBEE;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #5F82DC), color-stop(30%, #47BBEE));
-  background-image: -webkit-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
-  background-image: -moz-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
-  background-image: -o-linear-gradient(top, #5F82DC 30%, #47BBEE 30%);
   background-image: linear-gradient(to bottom, #5F82DC 30%, #47BBEE 30%);
 }
 .livery--tokaido::before {
   background-color: #463A40;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, #FF8143), color-stop(18%, #FFF), color-stop(23%, #FFF), color-stop(23%, #463A40));
-  background-image: -webkit-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
-  background-image: -moz-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
-  background-image: -o-linear-gradient(top, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
   background-image: linear-gradient(to bottom, #FF8143 18%, #FFF 18%, #FFF 23%, #463A40 23%);
 }
 .livery--hanwa::before {
   background-color: #1898C5;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(85%, #1898C5), color-stop(85%, #FF8143), color-stop(90%, #FF8143), color-stop(90%, #1898C5), color-stop(95%, #1898C5), color-stop(95%, #FF8143));
-  background-image: -webkit-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
-  background-image: -moz-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
-  background-image: -o-linear-gradient(top, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
   background-image: linear-gradient(to bottom, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
 }
 .livery--yokohama::before {
   background-color: #78B071;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #78B071), color-stop(70%, #338E7D));
-  background-image: -webkit-linear-gradient(top, #78B071 70%, #338E7D 70%);
-  background-image: -moz-linear-gradient(top, #78B071 70%, #338E7D 70%);
-  background-image: -o-linear-gradient(top, #78B071 70%, #338E7D 70%);
   background-image: linear-gradient(to bottom, #78B071 70%, #338E7D 70%);
 }
 .livery--yokohama::before {
   background-color: #78B071;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #78B071), color-stop(70%, #338E7D));
-  background-image: -webkit-linear-gradient(top, #78B071 70%, #338E7D 70%);
-  background-image: -moz-linear-gradient(top, #78B071 70%, #338E7D 70%);
-  background-image: -o-linear-gradient(top, #78B071 70%, #338E7D 70%);
   background-image: linear-gradient(to bottom, #78B071 70%, #338E7D 70%);
 }
 .livery--utsunomiya::before {
   background-color: #24C76C;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FF8D18), color-stop(50%, #24C76C));
-  background-image: -webkit-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
-  background-image: -moz-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
-  background-image: -o-linear-gradient(top, #FF8D18 50%, #24C76C 50%);
   background-image: linear-gradient(to bottom, #FF8D18 50%, #24C76C 50%);
 }
 .livery--niko::before {
   background-color: #55141C;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #A86B29), color-stop(20%, #55141C));
-  background-image: -webkit-linear-gradient(top, #A86B29 20%, #55141C 20%);
-  background-image: -moz-linear-gradient(top, #A86B29 20%, #55141C 20%);
-  background-image: -o-linear-gradient(top, #A86B29 20%, #55141C 20%);
   background-image: linear-gradient(to bottom, #A86B29 20%, #55141C 20%);
 }
 .livery--kcj::before {
   background-color: #F6BE09;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #FFFFFF), color-stop(10%, #F6BE09), color-stop(90%, #F6BE09), color-stop(90%, #FFFFFF));
-  background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
-  background-image: -moz-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
-  background-image: -o-linear-gradient(top, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
   background-image: linear-gradient(to bottom, #FFFFFF 10%, #F6BE09 10%, #F6BE09 90%, #FFFFFF 90%);
 }
 .livery--hanwa2::before {
