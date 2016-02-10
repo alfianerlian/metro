@@ -83,6 +83,10 @@
 }
 .glass-top--bordered,
 .glass--bordered .glass-top {
+  left: 4%;
+  border-radius: 50% 50% 0 0;
+  width: 92%;
+  height: 83%;
   background-color: #292929;
 }
 .glass-top--bordered::before,
@@ -95,13 +99,6 @@
   width: 96%;
   height: 86%;
   background-color: #444;
-}
-.glass-top--bordered,
-.glass--bordered .glass-top {
-  left: 4%;
-  border-radius: 50% 50% 0 0;
-  width: 92%;
-  height: 83%;
 }
 .head-bottom {
   position: relative;
@@ -810,10 +807,6 @@
 .livery--hanwa::before {
   background-color: #1898C5;
   background-image: linear-gradient(to bottom, #1898C5 85%, #FF8143 85%, #FF8143 90%, #1898C5 90%, #1898C5 95%, #FF8143 95%);
-}
-.livery--yokohama::before {
-  background-color: #78B071;
-  background-image: linear-gradient(to bottom, #78B071 70%, #338E7D 70%);
 }
 .livery--yokohama::before {
   background-color: #78B071;
