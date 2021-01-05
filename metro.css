@@ -829,11 +829,9 @@
 .bg--musashino {
   background-color: #FFBB99;
 }
-.bg--kcj {
-  background-color: #F0A7A7;
-}
+.bg--kcj,
 .bg--kcj20 {
-  background-color: #e5f0a7;
+  background-color: #F0A7A7;
 }
 .bg--utsunomiya {
   background-color: #A8EFC8;
