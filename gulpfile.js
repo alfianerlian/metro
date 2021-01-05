@@ -12,4 +12,5 @@ gulp.task('autoprefixer', function () {
 
 gulp.task('all', function() {
     gulp.watch('style.css',['autoprefixer']);
+    gulp.watch('./src/metro.css',['autoprefixer']);
 });
