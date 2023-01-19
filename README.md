@@ -1,5 +1,5 @@
 # Metro
-Metro is a collection of 205 Series EMU train created in pure CSS
+205 Series EMU train
 
 [Project page](https://alfianerlian.github.io/metro)
 
